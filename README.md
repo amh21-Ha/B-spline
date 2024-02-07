@@ -4,7 +4,9 @@ The B-spline method is a numerical technique that uses cubic B-spline basis func
 To solve the problem, I will use the following steps:
 
 Step 1: Define the B-spline basis functions and their derivatives on each subinterval.
+
 Step 2: Construct the collocation matrix and the right-hand side vector using the B-spline basis functions and the differential equation.
+
 Step 3: Solve the linear system for the coefficients of the B-spline approximation.
+
 Step 4: Evaluate the B-spline approximation at any desired point in the interval [0, 1].
-I will use Python code to implement these steps.
